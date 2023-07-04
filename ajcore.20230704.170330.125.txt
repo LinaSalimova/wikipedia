@@ -1,7 +1,7 @@
 ---- AspectJ Properties ---
 AspectJ Compiler 1.9.5 built on Thursday Nov 28, 2019 at 11:28:53 PST
 ---- Dump Properties ---
-Dump file: ajcore.20230703.150920.146.txt
+Dump file: ajcore.20230704.170330.125.txt
 Dump reason: org.aspectj.weaver.BCException
 Dump on exception: true
 Dump at exit condition: abort
@@ -11,13 +11,13 @@ java.specification.version=18
 kotlinx.coroutines.debug=off
 sun.cpu.isalist=amd64
 sun.jnu.encoding=Cp1251
-org.gradle.test.worker=1
+org.gradle.test.worker=4
 sun.arch.data.model=64
 idea.fatal.error.notification=disabled
 pty4j.preferred.native.folder=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3/lib/pty4j
 java.vendor.url=https://java.oracle.com/
 sun.boot.library.path=C:\Users\Lina\.jdks\openjdk-18.0.2.1\bin;C:\Users\Lina\.jdks\openjdk-18.0.2.1\bin
-sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1'
+sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 4'
 jdk.debug=release
 ide.native.launcher=true
 java.specification.vendor=Oracle Corporation
@@ -50,13 +50,13 @@ java.version=18.0.2.1
 idea.xdebug.key=-Xdebug
 jna.noclasspath=true
 java.vm.specification.name=Java Virtual Machine Specification
-org.gradle.internal.worker.tmpdir=C:\Users\Lina\IdeaProjects\wikipedia\build\tmp\test\work
+org.gradle.internal.worker.tmpdir=C:\Users\Lina\IdeaProjects\wikipedia\build\tmp\ios\work
 sun.os.patch.level=
 native.encoding=Cp1251
 java.library.path=C:\Users\Lina\.jdks\openjdk-18.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python38\Scripts\;C:\Python38\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\chromedriver;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Gradle\bin;C:\Program Files\WireGuard\;C:\Program Files (x86)\dotnet\;C:\Program Files\PowerShell\7\;C:\Program Files\PowerShell\7-preview\preview;C:\Program Files\Git\cmd;C:\Users\Lina\scoop\shims;C:\Users\Lina\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3\bin;;C:\Users\Lina\AppData\Local\GitHubDesktop\bin;C:\Users\Lina\.dotnet\tools;;.
 junit.jupiter.extensions.autodetection.enabled=true
 java.vendor=Oracle Corporation
-io.netty.processId=14039
+io.netty.processId=7809
 java.rmi.server.disableHttp=true
 sun.io.unicode.encoding=UnicodeLittle
 library.jansi.path=C:\Users\Lina\.gradle\native\jansi\1.18\windows64
