@@ -17,3 +17,15 @@
 17:14:59.350 [ApplicationImpl pooled thread 203] INFO  c.b.l.BrowserStackRunExtension - maven
 17:14:59.350 [ApplicationImpl pooled thread 203] INFO  com.browserstack.utils.Helpers - null
 17:15:19.819 [java.exe] INFO  c.b.launchers.LaunchMavenCommand - Completed maven archetype command
+17:16:34.197 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+17:16:34.197 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - true
+17:26:48.391 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+17:26:48.391 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - true
+17:27:03.263 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+17:27:03.264 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - true
+17:28:04.329 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+17:28:04.329 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - true
+17:28:22.417 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+17:28:22.417 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - true
+21:07:20.137 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+21:07:20.137 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - true
