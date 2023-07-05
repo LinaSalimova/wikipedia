@@ -2,7 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/junit-appium-app-browserstack" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/junit-appium-app-browserstack/junit-5/ios/junit-appium-app-browserstack" vcs="Git" />
   </component>
 </project>

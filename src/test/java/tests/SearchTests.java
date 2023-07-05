@@ -24,6 +24,7 @@ public class SearchTests extends TestBase {
                 $$(AppiumBy.id("org.wikipedia.alpha:id/page_list_item_container"))
                         .shouldHave(sizeGreaterThan(0)));
     }
+
     @Test
     @Tag("android")
     @DisplayName("Open article from Main page")
@@ -34,6 +35,7 @@ public class SearchTests extends TestBase {
                 $$(AppiumBy.id("org.wikipedia.alpha:id/view_news_fullscreen_link_card_list"))
                         .shouldHave(sizeGreaterThan(0)));
     }
+
     @Test
     @Tag("android")
     @DisplayName("Open article from Search")
@@ -49,3 +51,4 @@ public class SearchTests extends TestBase {
                         .shouldHave(text("An error occurred")));
     }
 }
+
