@@ -14,11 +14,10 @@ import static com.codeborne.selenide.Selenide.*;
 public class TestBase {
     @BeforeAll
     static void beforeAll() {
-        switch (System.getProperty("deviceHost")) {
-            case "android", "ios" -> Configuration.browser = BrowserstackDriver.class.getName();
-        }
+        Configuration.browser = BrowserstackDriver.class.getName();
         Configuration.browserSize = null;
     }
+
 
     @BeforeEach
     void addListener() {
