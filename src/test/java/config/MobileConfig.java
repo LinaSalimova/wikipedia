@@ -24,4 +24,5 @@ public interface MobileConfig extends Config {
     @Key("name")
     String testName();
 
+
 }
