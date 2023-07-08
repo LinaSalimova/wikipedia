@@ -14,6 +14,6 @@ public interface BrowserstackConfig extends Config {
     String password();
 
     @Key("baseURL")
-    String baseURL();
+    String baseUrl();
 
 }

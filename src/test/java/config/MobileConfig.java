@@ -13,10 +13,10 @@ public interface MobileConfig extends Config {
     String device();
 
     @Key("osVersion")
-    String os_version();
+    String osVersion();
 
     @Key("project")
-    String project();
+    String projectName();
 
     @Key("build")
     String buildName();
