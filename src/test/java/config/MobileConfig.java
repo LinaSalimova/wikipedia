@@ -3,7 +3,7 @@ package config;
 import org.aeonbits.owner.Config;
 
 @Config.Sources({
-        "classpath:${deviceHost}.properties"
+        "classpath:ios.properties",
 })
 public interface MobileConfig extends Config {
     @Key("bs")
