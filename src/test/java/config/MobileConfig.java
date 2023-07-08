@@ -3,7 +3,7 @@ package config;
 import org.aeonbits.owner.Config;
 
 @Config.Sources({
-        "classpath:${env}.properties"
+        "classpath:ios.properties",
 })
 public interface MobileConfig extends Config {
     @Key("bs")
@@ -13,10 +13,10 @@ public interface MobileConfig extends Config {
     String device();
 
     @Key("osVersion")
-    String osVersion();
+    String os_version();
 
     @Key("project")
-    String projectName();
+    String project();
 
     @Key("build")
     String buildName();
