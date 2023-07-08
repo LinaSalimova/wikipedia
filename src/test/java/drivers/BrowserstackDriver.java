@@ -28,6 +28,8 @@ public class BrowserstackDriver implements WebDriverProvider {
         mutableCapabilities.setCapability("device", "Google Pixel 3");
         mutableCapabilities.setCapability("os_version", "9.0");
 
+        mutableCapabilities.setCapability("device", "iPhone XS");
+        mutableCapabilities.setCapability("os_version", "12");
         // Set other BrowserStack capabilities
         mutableCapabilities.setCapability("project", "First Java Project");
         mutableCapabilities.setCapability("build", "browserstack-build-1");
