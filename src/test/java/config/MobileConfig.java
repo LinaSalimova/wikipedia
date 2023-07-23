@@ -3,7 +3,7 @@ package config;
 import org.aeonbits.owner.Config;
 
 @Config.Sources({
-        "classpath:ios.properties",
+        "classpath:${env}.properties"
 })
 public interface MobileConfig extends Config {
     @Key("bs")
@@ -23,6 +23,5 @@ public interface MobileConfig extends Config {
 
     @Key("name")
     String testName();
-
 
 }

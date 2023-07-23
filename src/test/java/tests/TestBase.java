@@ -1,4 +1,5 @@
 package tests;
+
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import drivers.BrowserstackDriver;
@@ -17,7 +18,6 @@ public class TestBase {
         Configuration.browserSize = null;
     }
 
-
     @BeforeEach
     void addListener() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
@@ -34,4 +34,5 @@ public class TestBase {
 
         Attach.addVideo(sessionId);
     }
+
 }
